@@ -446,6 +446,10 @@
   .list-inline-item {
     display: inline-block;
   }
+
+  .list-inline-item:hover{
+    color: black;
+  }
   
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
@@ -2244,8 +2248,8 @@
   
   .btn-primary {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: #1a96bc;
+    border-color: #1a96bc;
   }
   
   .btn-primary:hover {
